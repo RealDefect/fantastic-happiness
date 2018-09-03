@@ -3,7 +3,7 @@ from sys import argv
 
 
 
-#Item variables 
+#Item variables not used for future developement 
 rock = 2
 sword = 5
 stick = 2
@@ -25,7 +25,7 @@ def front_gate():
             print "It opens slowly to a court yard. So many bushes around you can't count them all."
             print "You look around searching for anyone else."  
             court_yard()
-            elif castlegate == "walk the opposite direction":
+            else if castlegate == "walk the opposite direction":
                 print "You turn around and start walking into the forest."
                 print "You fall into a pit breaking your leg." 
 	            print "You scream for help but no one comes to your aide."
