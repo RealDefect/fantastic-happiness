@@ -86,7 +86,7 @@ def blue_door():
         front_gate()
     elif pockets > 500:
        print "As you are filling your pockets with gold something moves."
-       print "Suddenly a snack leaps out from under the coins bitting you."
+       print "Suddenly a snake leaps out from under the coins bitting you."
        dead("Everything goes dark!!!.......")
     else:
       dead("Well that could have went better!")
